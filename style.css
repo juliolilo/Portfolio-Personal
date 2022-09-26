@@ -652,6 +652,8 @@
   .contact-content-con .right-contact .input-control {
     margin: 1.5rem 0;
   }
+
+  
   .contact-content-con .right-contact .input-control input, .contact-content-con .right-contact .input-control textarea {
     border-radius: 30px;
     font-weight: inherit;
@@ -674,8 +676,10 @@
   .contact-content-con .right-contact .submit-btn {
     display: flex;
     justify-content: flex-start;
+    width: 100%;
+    
   }
-  
+
   /*Independed components*/
   .btn-con {
     display: flex;
@@ -752,7 +756,70 @@
     padding-left: 0;
   }
   
+  .submit{
+    width:200px;
+    
+    margin-left: 100px;
+    
+    padding: 0.8rem 1.1rem;
+    outline: none;
+    border: 1px solid;
+    border-color: #27AE60;
+    
+    border-radius: 30px;
+    color: inherit;
+    font-weight: 600;
+    border: 1px solid var(--color-secondary);
+    display: flex;
+    overflow: hidden;
+    align-self: flex-end;
+    align-items: center;
+    justify-content: center;
+  }
+  .submit-input{
+    width:200px;
+    margin-left: 100px;
+    padding: 0.8rem 1.1rem;
+    outline: none;
+    border: 1px solid;
+    border-radius: 30px;
+    
+    border: 1px solid var(--color-secondary);
+    display: flex;
+    overflow: hidden;
+    justify-content: center;
+    outline: none;
+    background: transparent;
+    font-family: inherit ;
+    font-weight: 600;
+    font-size: inherit;
+    font-family: inherit;
+    color: var(--color-white);
+    transition-duration: 1s;
+  }
 
+  
+  .submit-input:hover{
+    cursor: pointer;
+    color: var(--color-secondary);
+
+  }
+
+  .submit-icon{
+    margin-left: 50%;
+    background-color: var(--color-secondary);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    
+    
+  }
+  
+
+
+  /*.probar{background-color: #F56692;}*/
+  
 
   @media screen and (max-width: 600px) {
     header {
