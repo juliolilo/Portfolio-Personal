@@ -224,7 +224,7 @@
     border-radius: var(--br-sm-2);
     object-fit: cover;
     max-width: 68%;
-    max-height: 650px;
+    max-height: 90%;
     transition: all 0.4s ease-in-out;
   }
 
@@ -237,7 +237,7 @@
     border-radius: var(--br-sm-2);
     object-fit: cover;
     max-width: 68%;
-    max-height: 650px;
+    max-height: 90%;
     transition: all 0.4s ease-in-out;
 
   }
