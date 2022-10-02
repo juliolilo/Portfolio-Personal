@@ -887,7 +887,13 @@
     .main-btn{
       margin-left: 25%;
     }
-
+    
+    .main-btn1{
+      margin-left: 20%;
+    }
+    .btn-con{
+      width: 100%;
+    }
     .submit-input{
       margin-top: 5%;
       margin-left: 3%;
@@ -898,8 +904,13 @@
     }
   
     .header-content {
-      grid-template-columns: repeat(1, 1fr);
-      padding-bottom: 6rem;
+      
+      display: flex;
+      flex-direction: column-reverse;
+    }
+    .left-header{
+      width: 100%;
+      height: 70vh;
     }
   
     .left-header .h-shape {
@@ -907,10 +918,11 @@
     }
   
     .right-header {
-      grid-row: 1;
-      padding-right: 0rem !important;
-      width: 90%;
-      margin: 0 auto;
+      
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      
     }
     .right-header .name {
       font-size: 2.5rem !important;
@@ -960,6 +972,10 @@
 
     .right-about{
       margin-left: 7%;
+    }
+
+    .left-contact h4{
+      margin-left: 14%;
     }
 
     .timeline {
@@ -1113,7 +1129,7 @@
       grid-template-columns: repeat(1, 1fr);
       padding-bottom: 6rem;
     }
-  
+    
     .left-header .h-shape {
       display: none;
     }
