@@ -8,7 +8,11 @@
   :root {
     --color-primary: #191d2b;
     --color-secondary: #27AE60;
+    /*--color-secondary: #191d2b;*/
+    /*--color-secondary: rgb(224, 127, 0);*/
+    /*--color-secondary: #fa5b0f;*/
     /*--color-secondary: rgb(77, 181, 255);*/
+    /*--color-primary: rgb(77, 181, 255);*/
     --color-white: #FFFFFF;
     --color-black: #000;
     --color-grey0: #f8f8f8;
