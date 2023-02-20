@@ -272,13 +272,24 @@
   }
   
   /*About*/
+
+  .about-text{
+
+    margin-top: 10%;
+    text-align: center;
+    line-height: 2rem;
+  }
   .about-container {
+    
     display: flex;
     align-items: center;
     justify-content: center;
+    /*margin-top: 10%;*/
     padding-top: 3.5rem;
     padding-bottom: 5rem;
+    
   }
+
   .about-container .right-about {
     display: flex;
     flex-wrap: wrap;
@@ -291,13 +302,14 @@
     box-shadow: 1px 2px 15px rgba(0, 0, 0, 0.1);
     width: 350px;
     margin-bottom: 25px;
+    margin: 20px;
   }
 
   .icon{
     width: 20px;
     height: 20px;
   }
-  .about-container .right-about .about-item:hover {
+   .about-item:hover {
     cursor: default;
     transform: translateY(-5px);
     border: 1px solid var(--color-secondary);
@@ -330,16 +342,17 @@
     opacity: 1;
     transform: scale(1);
   }*/
-
+/*
   .abt-text {
     padding: 1.5rem;
     display: flex;
     flex-direction: column;
-  }
+  }*/
 
   .mini-about{
     display: flex;
     align-items: center;
+    margin-left: 10%;
   }
   .large-text {
     font-size: 22px;
@@ -970,16 +983,10 @@
     .about-container .left-about p {
       padding-left: 0;
     }*/
-    .about-container{
-      
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-    }
-
+   
     .right-about{
-      margin-left: 7%;
+      margin-left: 70%;
+      
     }
 
     .left-contact h4{
@@ -1187,3 +1194,40 @@
   }
   
   /*# sourceMappingURL=styles.css.map */
+
+  /* Para dispositivos con ancho menor o igual a 768px */
+  @media (max-width: 768px) {
+    .about-container {
+      flex-wrap: wrap;
+    }
+    
+    .about-item {
+      flex-basis: 100%;
+    }
+    
+    .mini-about {
+      margin-right: 0;
+      margin-bottom: 10px;
+    }
+    
+    .about-item2 {
+      margin-top: 30px;
+    }
+  }
+  
+  /* Para dispositivos con ancho mayor a 768px */
+  @media (min-width: 769px) {
+    .about-container {
+      display: flex;
+      justify-content: space-between;
+    }
+    
+    .about-item {
+      flex-basis: 30%;
+    }
+    
+    .about-item2 {
+      margin-top: 0;
+    }
+  }
+  
